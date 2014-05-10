@@ -1,0 +1,102 @@
+	body {
+    background: #242728;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.4em;
+}
+
+div.col-md-12.wlogo img {
+    max-width: 57%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 26%;
+}
+div.col-md-12.wdisc {
+    text-align: center;
+    padding-top: 1%;
+    font-size: 17px;
+    line-height: 1.4em;
+}
+
+.loading img {
+    max-width: 44px;
+    display: block;
+    margin: 0px auto;
+    margin-top: 79px;
+}
+div.col-md-12.qoute {
+    padding: 80px 60px 80px 60px;
+    text-align: center;
+    font-size: 15px;
+}
+div.hight {
+    color: #f5db33;
+    padding-top: 13px;
+}
+
+div.cl-md-12.header {
+    min-height: 75px;
+    background: #fff;
+    color: #242728;
+}
+div.cl-md-6.logo img {
+    max-width: 133px;
+    padding: 16px 0px 0px 21px;
+    display: block;
+    float: left;
+}
+
+div.cl-md-6.menu {
+    text-align: right;
+    padding-right: 30px;
+    padding-top: 25px;
+    font-size: 26px;
+}
+
+div.row.rhead {
+    color: #f5b333;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+span.rheadt {
+    font-size: 16px;
+    color: #fff;
+    float: left;
+}
+
+div.cl-md-12.cbread {
+    background: #fff;
+    color: #242728;
+    padding: 10px 28px;
+    font-size: 16px;
+    text-align: center;
+}
+div.cl-md-12.cbread>span {
+    color: #f5b333;
+    padding: 0px 2px;
+}
+div.cl-md-12.cbread>span.special {
+    color: #242728;
+    border-bottom: 4px solid #f5b333;
+    padding-bottom: 6px;
+}
+
+div.col-md-12.quo {}
+div.row.repo {
+    padding: 25px;
+}
+div.row.repo>label {
+}
+label {
+    font-weight: 100;
+    display: block;
+    padding-top: 4px;
+    padding-left: 40px;
+}
+input[type="checkbox"] {
+    margin-right: 10px;
+}
