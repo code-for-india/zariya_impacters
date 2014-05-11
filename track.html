@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/dev.css" rel="stylesheet">
+   <style>
+     html, body, #map-canvas {
+       height: 400px;
+       margin: 0px;
+       padding: 0px
+     }
+   </style>
+<script src="http://code.jquery.com/jquery-1.10.1.min.js">
+</script>
+   <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+   <script type="text/javascript" src= "js/zariyamap.js"></script>
+</head>
+<body>
+    <div class="container">
+      <div class="row"><!-- header -->
+        <div class="cl-md-12 header">
+          <div class="cl-md-6 logo"><img src="img/logo.png" alt=""></div>
+          <div class="cl-md-6 menu"><div onClick="location.href='main.html';"><span class="glyphicon glyphicon-list "></span></div></div>
+        </div>
+        <div class="row rhead"> <!-- Report header -->
+        <div class="cl-md-12"><span class="glyphicon glyphicon-map-marker"></span>Track<!-- <span class="rheadt">read more</span> --></div>
+      </div>
+      </div>
+   <div id="map-canvas"></div>
+ </body>
+</html>
