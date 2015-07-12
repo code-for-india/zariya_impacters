@@ -4,12 +4,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
+    <title>Zariya | Impacters</title>
 
     <!-- Bootstrap -->
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet' type='text/css'>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/dev.css" rel="stylesheet">
+    <link href="css/animations.css" rel="stylesheet">
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -20,24 +21,24 @@
     <![endif]-->
   </head>
   <body>
-  	<div class="container">
-      <div class="row"><!-- header -->
-        <div class="cl-md-12 header">
-          <div class="cl-md-6 logo"><img src="img/logo.png" alt=""></div>
-          <div class="cl-md-6 menu"><div onClick="location.href='main.html';"><span class="glyphicon glyphicon-home "></span></div></div>
-        </div>
-      </div>
+  	<div class="container animatedParent">
+      <div class="row animatedParent"><!-- header -->
+       <div class="cl-md-12 header">
+         <div  class="animated fadeInLeft cl-md-6 logo"><img src="img/logo.png" alt=""></div>
+         <div class="animated fadeInDown cl-md-6 menu"><div onClick="location.href='main.html';"><a href="#"><span class="glyphicon glyphicon-home "></span></a></div>
+       </div>
+     </div>
 
-      <div class="row rhead"> <!-- Report header -->
+      <div class="row rhead animated bounceInDown"> <!-- Report header -->
         <div class="cl-md-12"><span class="glyphicon glyphicon-edit"></span>report<!-- <span class="rheadt">read more</span> --></div>
       </div>
 
       <div class="row bread"> <!-- bread -->
-        <div class="cl-md-12 cbread">person<span>></span>incident<span>></span>location<span>></span><span class="special">information</span></div>
+       <div class="cl-md-12 cbread"><span class="special animated fadeInLeft" style="animation-delay: 0s">person</span><span style="animation-delay: 0.2s" class="animated fadeInLeft">></span><span style="animation-delay: 0.4s" class="animated fadeInLeft">incident</span><span style="animation-delay: 0.6s" class="animated fadeInLeft ">></span><span style="animation-delay: 0.8s" class="animated fadeInLeft">location</span><span style="animation-delay: 1.0s" class="animated fadeInLeft">></span><span class="animated fadeInLeft" style="animation-delay: 1.2s">information</span></div>
       </div>
 
 
-      <div class="row repo">
+      <div class="row repo animated fadeInLeft">
         <div class="col-md-12 quo"> full name</div>  
 
         <div class="col-md-12 ans">
@@ -69,7 +70,7 @@
       -->
 
       <div class="col-md-3 butmain">
-          <button type="button" class="btn btn-default btn-lg">submit</button>
+          <button type="button" class="btn btn-default btn-lg  animated tada">submit</button>
         
         </div>
          </div>
@@ -80,5 +81,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+	<script src="js/animate-it.js"></script>
+     
   </body>
 </html>
