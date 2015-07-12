@@ -10,6 +10,8 @@
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600' rel='stylesheet' type='text/css'>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/dev.css" rel="stylesheet">
+     <link href="css/animations.css" rel="stylesheet">
+
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -20,14 +22,14 @@
     <![endif]-->
   </head>
   <body>
-  	<div class="container">
+  	<div class="container animatedParent">
 <!--   	Master Logo and Disc -->
 
 
   	<div class="row">
-  		<div class="col-md-12 wlogo"><a href = "main.html"><img src="img/wlogo.png" alt=""></a></div>
+  		<div class="col-md-12 wlogo animated fadeInDownShort"><a href = "main.html"><img src="img/wlogo.png" alt=""></a></div>
   	</div>
-  	<div class="row">
+  	<div class="row animated fadeInDownShort">
   		<div class="col-md-12 wdisc">A Safe Way to </br>Report Violence Against Women</div>
   	</div>
 
@@ -37,7 +39,7 @@
 	</div>
     
 <!--     qoute -->
-	<div class="row">
+	<div class="row animated fadeInDownShort">
 		<div class="col-md-12 qoute">
 			“I don't know who invented high heels, but all women owe him a lot.” <br/>
 			<div class="hight"><i>Marilyn Monroe</i></div>
@@ -59,4 +61,5 @@
                       window.location.replace('main.html');
                   }, 5000);}
 </script>
+<script type="text/javascript" src="js/animate-it.js"></script>
 </html>
